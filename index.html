@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Lionel | Portifolio</title>
+
+    <style>
+        body {
+            background: #B5D2DF;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #0C1821;
+        }
+
+        p {
+            color: #324A5F;
+        }
+
+    </style>
 </head>
 <body>
-    <section>
-        <img src="./img/IMG_20220528_133010.jpg" width="400" height="500" alt="Uma foto minha">
+    <section id="cabecalho">
         <h1>Olá! Eu sou Lionel Miranda</h1>
+        <img src="./img/IMG_20220528_133010.jpg" width="485" height="648" alt="Uma foto minha">
     </section>
 
-    <section>
-        <p>Eu sou <strong>formado</strong> em <strong>Análise e Desenvolvimento de Sistemas</strong> e atualmente estou estudando Desenvolvimento <em>Web</em> na <strong>TRYBE.</strong></p>
+    <section id="sobre">
+        <p>Eu sou <strong>formado</strong> em <strong>Análise e Desenvolvimento de Sistemas</strong> e atualmente estou estudando Desenvolvimento <em>Web</em> na <strong>TRYBE.</strong> Sou natural de Campo Grande - MS, proativo e autodidata, gosto de programar e desenhar.</p>
     </section>
 
-    <section>
+    <section id="habilidades">
         <h2>Habilidades principais:</h2>
         <ul>
             <li><strong><em>Autodidatismo</em></strong></li>
@@ -25,7 +45,7 @@
         </ul>
     </section>
 
-    <section>
+    <section id="links">
         <h2>Links</h2>
         
         <ul>
@@ -37,7 +57,10 @@
     <section>
         <h2>Índice</h2>
         <ul>
-            <a href="#"><li>Quem sou eu</li></a>
+            <a href="#cabecalho"><li>Topo</li></a>
+            <a href="#sobre"><li>Quem sou eu</li></a>
+            <a href="#skills"><li>Minhas habilidades</li></a>
+            <a href="links"><li>Links externos e internos</li></a>
         </ul>
     </section>
 </body>
